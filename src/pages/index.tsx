@@ -2,8 +2,10 @@ import styles from "./index.module.css";
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Test from "./test"
 
 const Home: NextPage = () => {
+
   return (
     <>
       <Head>
@@ -14,7 +16,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.container}>
           <h1 className={styles.title}>
-            Create <span className={styles.pinkSpan}>T3</span> App
+            Create <span className={styles.pinkSpan}>T4</span> App
           </h1>
           <div className={styles.cardRow}>
             <Link
@@ -41,6 +43,7 @@ const Home: NextPage = () => {
             </Link>
           </div>
         </div>
+        <Test></Test>
       </main>
     </>
   );
