@@ -2,7 +2,6 @@ import styles from "./index.module.css";
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import CodeMirrorWrapper from "../components/CodeMirrorWrapper"
 
 const Home: NextPage = () => {
   // const code = 'const a = 0;';
@@ -16,9 +15,8 @@ const Home: NextPage = () => {
       </Head>
       <main className="h-full w-full flex">
         <div className="h-1 w-full bg-black text-red-500">
-          hello
+          go to /openEditor
         </div>
-        <CodeMirrorWrapper></CodeMirrorWrapper>
       </main>
     </>
   );
