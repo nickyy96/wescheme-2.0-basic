@@ -9,8 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.10",
     "@uiw/react-codemirror": "^4.19.7",
     "next": "13.1.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^8.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "wescheme-js": "github:bootstrapworld/wescheme-js",
@@ -18,13 +23,15 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
-    "@types/react": "^18.0.26",
+    "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.10",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "@typescript-eslint/parser": "^5.47.1",
+    "autoprefixer": "^10.4.13",
     "eslint": "^8.30.0",
     "eslint-config-next": "13.1.1",
-    "tailwindcss": "^3.2.4",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
     "typescript": "^4.9.4"
   },
   "ct3aMetadata": {
